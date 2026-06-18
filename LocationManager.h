@@ -1,5 +1,5 @@
-#ifndef LOC_MANAGER_H
-#define LOC_MANAGER_H
+#ifndef LOCATION_MANAGER_H
+#define LOCATION_MANAGER_H
 
 #include <string>
 #include <vector>
