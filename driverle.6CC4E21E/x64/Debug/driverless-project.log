@@ -1,0 +1,18 @@
+﻿  FileHandler.cpp
+  main.cpp
+  RoutePlanner.cpp
+  Schedule.cpp
+  Scheduler.cpp
+  Shuttle.cpp
+  ShuttleManager.cpp
+  Vehicle.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl ConsolePresenter::ConsolePresenter(void)" (??0ConsolePresenter@@QEAA@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl ConsolePresenter::displayShuttleList(class std::vector<class Shuttle,class std::allocator<class Shuttle> > const &)const " (?displayShuttleList@ConsolePresenter@@QEBAXAEBV?$vector@VShuttle@@V?$allocator@VShuttle@@@std@@@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl ConsolePresenter::displayPassengerList(class std::vector<class Passenger,class std::allocator<class Passenger> > const &)const " (?displayPassengerList@ConsolePresenter@@QEBAXAEBV?$vector@VPassenger@@V?$allocator@VPassenger@@@std@@@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl ConsolePresenter::displaySchedule(class Schedule const &,class std::vector<class Shuttle,class std::allocator<class Shuttle> > const &,class std::vector<class Passenger,class std::allocator<class Passenger> > const &)const " (?displaySchedule@ConsolePresenter@@QEBAXAEBVSchedule@@AEBV?$vector@VShuttle@@V?$allocator@VShuttle@@@std@@@std@@AEBV?$vector@VPassenger@@V?$allocator@VPassenger@@@std@@@4@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl ConsolePresenter::printMenu(void)const " (?printMenu@ConsolePresenter@@QEBAXXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl ConsolePresenter::printMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?printMessage@ConsolePresenter@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl ConsolePresenter::printError(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?printError@ConsolePresenter@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function main
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\nasyi\source\repos\Janani-Sruthi\driverless-router\x64\Debug\driverless-project.exe : fatal error LNK1120: 8 unresolved externals
